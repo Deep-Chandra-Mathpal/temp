@@ -8,38 +8,58 @@
 }
 
 .header-class {
-  /* background-color: #F2D7D9; */
-  /* background-color: #bcbf67; */
   text-align: center;
-  height: 300px;
-  padding: 20px 0;
-  padding-right: 0;
+  padding: 30px;
 }
 
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.edu-h3class {
-  font-family: 'Lato', sans-serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  text-align: center;
-  margin: 0;
-}
-
-.details-class {
+.work-exp {
   font-family: 'Noto Sans', sans-serif;
-  padding-top: 20px;
-  padding-bottom: 15px;
-  padding-left: 100px;
-  /* background-color: #D3CEDF;
-  background-color: #748DA6; */
 }
 
-.edu-h5class {
+p {
+  margin-bottom: 1px;
+}
+
+.work-exp .small-text {
+  font-size: 14px;
+}
+
+.skill-class {
+  text-align: center;
+  line-height: 2.5;
+}
+
+.skill-class h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+.skill-class .bt-class {
+  background-color: #5e7676;
+  border: none;
+  font-weight: bold;
+  font-family: monospace;
+  pointer-events: none;
+}
+
+.box {
+  padding: 20px;
+  margin: 40px;
+  border-radius: 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body, .col-lg-12, .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.quote {
+  text-align: center;
+  font-family: 'Edu QLD Beginner', cursive;
+  padding: 50px;
+}
+
+.edu-proj h5 {
   padding-bottom: 0;
   padding-top: 10px;
   margin-bottom: 0;
@@ -47,11 +67,20 @@
   font-weight: bolder;
 }
 
-.edu-pclass {
+.edu-proj p {
   padding-top: 1px;
   padding-bottom: 1px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.edu-proj h3 {
+  font-family: 'Lato', sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: center;
+  margin: 0;
 }
 
 .projects-class {
@@ -65,93 +94,4 @@
   width: 60%;
   margin-left: 20%;
   padding-bottom: 40px;
-}
-
-hr {
-  margin: 0;
-}
-
-.bg-color {
-  /* background-color: #D3CEDF; */
-  /* background-color: #748DA6; */
-  /* background-color: #bcbf67; */
-  padding: 0;
-}
-
-p {
-  margin-bottom: 1px;
-}
-
-.small-text {
-  font-size: 14px;
-}
-
-.we-class {
-  padding-left: 40px;
-  padding-right: 50px;
-  /* background-color: #bcbf67; */
-}
-
-.bg-color-blue {
-  /* background-color: #D3CEDF; */
-  /* background-color: #bcbf67; */
-  /* background-color: #f0de41; */
-}
-
-.row {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 100px;
-}
-
-.skill-class {
-  text-align: center;
-  padding: 20px;
-  line-height: 2.5;
-}
-
-.bt-class {
-  /* background-color: #748DA6; */
-  background-color: #5e7676;
-  border: none;
-  font-weight: bold;
-  font-family: monospace;
-  pointer-events: none
-}
-
-.quote {
-  text-align: center;
-  font-family: 'Edu QLD Beginner', cursive;
-  padding: 50px;
-}
-
-.pad-zero {
-  padding: 0;
-}
-
-.edu-title {
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  /* background-color: #D3CEDF; */
-}
-
-.box {
-  /* background-color: #bcbf67; */
-  margin: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 20px 20px;
-  /* border: solid black 2px; */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.box2 {
-  /* background-color: #bcbf67; */
-
-  border: solid black 2px;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-}
-
-ul {
-  padding: 0;
 }
