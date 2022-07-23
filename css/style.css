@@ -9,7 +9,7 @@
 
 .header-class {
   /* background-color: #F2D7D9; */
-  background-color: #bcbf67;
+  /* background-color: #bcbf67; */
   text-align: center;
   height: 300px;
   padding: 20px 0;
@@ -41,8 +41,10 @@
 
 .edu-h5class {
   padding-bottom: 0;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 .edu-pclass {
@@ -87,12 +89,12 @@ p {
 .we-class {
   padding-left: 40px;
   padding-right: 50px;
-  background-color: #bcbf67;
+  /* background-color: #bcbf67; */
 }
 
 .bg-color-blue {
   /* background-color: #D3CEDF; */
-  background-color: #bcbf67;
+  /* background-color: #bcbf67; */
   /* background-color: #f0de41; */
 }
 
@@ -131,4 +133,25 @@ p {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   /* background-color: #D3CEDF; */
+}
+
+.box {
+  /* background-color: #bcbf67; */
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px 20px;
+  /* border: solid black 2px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box2 {
+  /* background-color: #bcbf67; */
+
+  border: solid black 2px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+ul {
+  padding: 0;
 }
