@@ -34,7 +34,8 @@ p {
 }
 
 .skill-class .bt-class {
-  background-color: #5e7676;
+  /* background-color: #5e7676; */
+  background-color: #5b9d9d;
   border: none;
   font-weight: bold;
   font-family: monospace;
@@ -100,7 +101,8 @@ body, .col-lg-12, .container-fluid {
 }
 
 .bg-col {
-  background-color: #bcbf67;
+  /* background-color: #bcbf67; */
+  background-color: #e1e576;
 }
 
 .row {
