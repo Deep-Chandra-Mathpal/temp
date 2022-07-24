@@ -1,6 +1,9 @@
 .header-title {
   padding-top: 25px;
   font-family: 'Work Sans', sans-serif;
+  font-size: xx-large;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .header-para {
@@ -195,9 +198,9 @@ body, .col-lg-12, .container-fluid {
 
 hr {
   border-style: dotted;
-  border-color: black;
   border-width: thick;
   border-bottom: none;
   width: 20%;
+  margin: 0;
   margin-left: 40%
 }
