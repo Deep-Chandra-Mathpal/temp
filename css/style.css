@@ -43,8 +43,10 @@ p {
 
 .box {
   padding: 20px;
-  margin: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 20px 20px;
+  height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -57,6 +59,7 @@ body, .col-lg-12, .container-fluid {
   text-align: center;
   font-family: 'Edu QLD Beginner', cursive;
   padding: 50px;
+  padding-top: 100px;
 }
 
 .edu-proj h5 {
@@ -94,4 +97,21 @@ body, .col-lg-12, .container-fluid {
   width: 60%;
   margin-left: 20%;
   padding-bottom: 40px;
+}
+
+.bg-col {
+  background-color: #bcbf67;
+}
+
+.row {
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.col-lg-3, .col-md-3, .col-sm-3, .col-xs-3, .col-lg-4, .col-md-4, .col-sm-4, .col-xs-4 {
+
+}
+
+.container-fluid {
+
 }
