@@ -9,7 +9,21 @@
 
 .header-class {
   text-align: center;
-  padding: 30px;
+  padding: 5px;
+}
+
+.header-image {
+  position: relative;
+  width: 100%;
+}
+
+.layer {
+    background-color: #fbfbf9b3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .work-exp {
@@ -60,7 +74,6 @@ body, .col-lg-12, .container-fluid {
   text-align: center;
   font-family: 'Edu QLD Beginner', cursive;
   padding: 50px;
-  padding-top: 100px;
 }
 
 .edu-proj h5 {
@@ -102,12 +115,24 @@ body, .col-lg-12, .container-fluid {
 
 .bg-col {
   /* background-color: #bcbf67; */
-  background-color: #e1e576;
+  /* background-color: #e1e576; */
+  background-color: #FFE69A;
+}
+
+.bg-col2 {
+  /* background-color: #FFD24C; */
+  background-color: #92B4EC;
+}
+
+.bg-col3 {
+    background-color: #FFB4B4;
+    background-color: #FF6464;
 }
 
 .row {
   justify-content: center;
   /* align-items: center; */
+  /* margin-bottom: 60px; */
 }
 
 .col-lg-3, .col-md-3, .col-sm-3, .col-xs-3, .col-lg-4, .col-md-4, .col-sm-4,
@@ -116,4 +141,18 @@ body, .col-lg-12, .container-fluid {
   margin-bottom: 40px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.no-pad-marg {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  border-style: dotted;
+  border-color: black;
+  border-width: thick;
+  border-bottom: none;
+  width: 20%;
+  margin-left: 40%
 }
