@@ -135,7 +135,7 @@ body, .col-lg-12, .container-fluid {
   font-family: 'Noto Sans', sans-serif;
   padding-bottom: 15px;
   text-align: center;
-  color: white;
+  /* color: white; */
 }
 
 .project-items {
