@@ -10,6 +10,7 @@
 .header-class {
   text-align: center;
   padding: 5px;
+  color: white;
 }
 
 .header-image {
@@ -30,6 +31,18 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
+.work-exp h3 {
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  background-color: #DFDFDE;
+}
+
 p {
   margin-bottom: 1px;
 }
@@ -45,6 +58,14 @@ p {
 
 .skill-class h3 {
   font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  background-color: #DFDFDE;
 }
 
 .skill-class .bt-class {
@@ -57,12 +78,16 @@ p {
 }
 
 .box {
-  padding: 20px;
+  /* padding: 20px; */
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 20px 20px;
   height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.det {
+  padding: 20px;
 }
 
 body, .col-lg-12, .container-fluid {
@@ -93,18 +118,23 @@ body, .col-lg-12, .container-fluid {
 
 .edu-proj h3 {
   font-family: 'Lato', sans-serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
-  margin: 0;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  background-color: #DFDFDE;
+  color: black;
+
 }
 
 .projects-class {
   font-family: 'Noto Sans', sans-serif;
-  padding-top: 20px;
   padding-bottom: 15px;
   text-align: center;
+  color: white;
 }
 
 .project-items {
@@ -137,7 +167,11 @@ body, .col-lg-12, .container-fluid {
 }
 
 .bg-colp {
-  background-color: #FF6464;
+  background-color: #ff4c68;
+}
+
+.bg-colp2 {
+  background-color: #ef8172;
 }
 
 .row {
