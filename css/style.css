@@ -1,5 +1,5 @@
 .header-title {
-  padding-top: 25px;
+  /* padding-top: 25px; */
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -9,8 +9,8 @@
 
 .header-class {
   text-align: center;
-  padding: 5px;
   color: white;
+  /* margin-bottom: 40px; */
 }
 
 .header-image {
@@ -99,6 +99,7 @@ body, .col-lg-12, .container-fluid {
   text-align: center;
   font-family: 'Edu QLD Beginner', cursive;
   padding: 50px;
+  padding-top: 100px;
 }
 
 .edu-proj h5 {
@@ -200,4 +201,10 @@ hr {
   width: 20%;
   margin: 0;
   margin-left: 40%
+}
+
+.profile-pic {
+  width: 60%;
+  border-radius: 100%;
+  margin-top: 100px;
 }
