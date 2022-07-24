@@ -116,17 +116,28 @@ body, .col-lg-12, .container-fluid {
 .bg-col {
   /* background-color: #bcbf67; */
   /* background-color: #e1e576; */
+  /* background-color: #FFE69A; */
+  /* background-color: #FFD24C; */
+  /* background-color: #92B4EC; */
+  background-color: #FFB4B4;
+  background-color: #FF6464;
+  background-color: white;
+}
+
+.bg-colw {
+  background-color: white;
+}
+
+.bg-coly {
   background-color: #FFE69A;
 }
 
-.bg-col2 {
-  /* background-color: #FFD24C; */
+.bg-colb {
   background-color: #92B4EC;
 }
 
-.bg-col3 {
-    background-color: #FFB4B4;
-    background-color: #FF6464;
+.bg-colp {
+  background-color: #FF6464;
 }
 
 .row {
